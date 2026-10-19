@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1d2736;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0d1b2a;
+  color: white;
+}
+
+.badge {
+  background: #1f7a8c;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+}
+
+.layout {
+  padding: 1rem 2rem 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+  color: #51677c;
+  font-size: 0.9rem;
+}
+
+.card strong {
+  font-size: 1.6rem;
+}
+
+.panel {
+  background: white;
+  margin-top: 1rem;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+#integration {
+  line-height: 1.6;
+}
